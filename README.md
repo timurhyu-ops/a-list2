@@ -14,11 +14,11 @@ The primary goal of this project was to create a clean, responsive interface tha
 
 ## Tech Stack
 
-| Category | Tools |
-| :--- | :--- |
-| Frontend | HTML5, CSS3 |
-| Version Control | Git |
-| Collaboration | GitHub |
+| Category        | Tools       |
+|                 |             |
+| Frontend        | HTML5, CSS3 |
+| Version Control | Git         |
+| Collaboration   | GitHub      |
 
 ## Development Workflow
 
@@ -34,9 +34,9 @@ The project followed a structured team workflow to ensure code quality and proje
 To view the project locally, follow these steps:
 
 1. Clone the repository:
-   git clone https://github.com/your-username/a-list.git
+   git clone https://github.com/kyrmer/Versjonskontroll.git
 
 2. Navigate to the directory:
-   cd a-list
+   cd Versjonskontroll
 
 3. Open index.html in your preferred web browser.
