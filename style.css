@@ -27,6 +27,15 @@ body {
   margin: 20px;
 }
 
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
 main {
   max-width: 800px;
   margin: 0 auto;
