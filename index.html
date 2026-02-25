@@ -1,34 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header class="header">
-  <h1>a-list</h1>
-  <nav>
-    <a href="#features">Features</a>
-    <a href="#about">About</a>
-  </nav>
-</header>
-<main>
-<section id="features" class="features">
-  <h2>Why a-list?</h2>
-  <ul>
-    <li>Easy to use</li>
-    <li>Access anywhere</li>
-    <li>Stay organized</li>
-  </ul>
-</section>
 
-  <section id="about" class="about">
-    <h2>About</h2>
-    <p>a-list helps you manage everyday tasks with simple digital lists.</p>
-  </section>
-</main>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <title>A-List</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <h1>A-List</h1>
+
+  <div id="auth-section">
+    <h2>Registrer deg</h2>
+    <input type="email" id="register-email" placeholder="E-post" />
+    <input type="password" id="register-password" placeholder="Passord" />
+    <button onclick="register()">Registrer</button>
+
+    <h2>Logg inn</h2>
+    <input type="email" id="login-email" placeholder="E-post" />
+    <input type="password" id="login-password" placeholder="Passord" />
+    <button onclick="login()">Logg inn</button>
+  </div>
+
+  <div id="app-section" style="display:none;">
+    <h2>Velkommen til A-List 🎉</h2>
+    <p>Du er nå logget inn.</p>
+    <button onclick="logout()">Logg ut</button>
+  </div>
+
 </body>
-<script src="js/main.js"></script>
+  <script src="js/script.js"></script>
 </html>
